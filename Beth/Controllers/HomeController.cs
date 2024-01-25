@@ -35,6 +35,10 @@ namespace Beth.Controllers
             return View();
         }
 
+        public IActionResult MakeRequest()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
